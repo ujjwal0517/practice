@@ -6,3 +6,4 @@ router.get('/', (req:Request, res:Response)=>{
 })
 
 module.exports = router;
+console.log("This is Node.js world")
