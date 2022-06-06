@@ -13,7 +13,8 @@ mongoose.connect(DatabaseUri ,{ useNewUrlParser:true })
 })
 
 
-
-
+// route
+const student = require('./routes/route')
+app.use('/api', student);
 
 app.listen(process.env.PORT, ()=>console.log(`Server started @ ${process.env.PORT}`))
