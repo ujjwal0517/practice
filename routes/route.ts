@@ -1,3 +1,4 @@
+console.log("This is Node.js world")
 const express = require("express")
 const router = express.Router();
 const students = require('../student/student')
