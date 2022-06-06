@@ -1,4 +1,4 @@
-const express = require("express")
+import express, {Request, Response} from "express";
 const router = express.Router();
 const students = require('../student/student')
 router.get('/', (req:Request, res:Response)=>{
@@ -6,3 +6,4 @@ router.get('/', (req:Request, res:Response)=>{
 })
 
 module.exports = router;
+console.log("This is Node.js world")
